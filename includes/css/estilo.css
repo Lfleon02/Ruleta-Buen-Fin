@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.navega{
+	
+	font-size:18px;
+	font-weight: bold;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.paramovil{
+	display: none;
+}
+
+
+.top_black
+  {
+	background-color: #000;
+	width: 100%;
+	height: 80px;
+  }
+
+.segundo_menu
+	{
+	 color: #000;
+	 font-weight: bold;
+	 font-size: 18px;
+	}   
+
+.columna
+	{
+	 text-align: center;	
+	}	
+
+.buenfin
+	{
+	 width: 140px;
+	 display:block;
+	 margin:auto;
+	}	
+.participa
+	{
+	 font-weight: bold;
+	 font-size:30px;		 	
+	}	
+.gira_txt	
+	{
+	 font-size: 28px;	
+	 font-weight: bold;
+	}
+.obten	
+	{
+	 font-size: 24px;	
+	}	
+.formulario
+	{
+	 display:block;
+	 margin:auto;
+	}	
+.politicas
+	{
+	 display:block;
+	 margin:auto;
+	}	
+.btn_prueba_suerte
+	{
+	 color:#ffffff;
+	 background-color: #c22026;
+	 display:block;
+	 margin:auto;
+	}	
+.centrar
+	{
+	 display:block;
+	 margin:auto;
+	}	
+.facebook
+	{
+	 color: #ffffff;
+	 background-color: blue;
+	}	
+.google
+	{
+	 color:#ffffff;
+	 background-color:#c22026;
+	}	
+.fijado
+	{
+	 background-color: #ffffff; 
+	 width:100%; 
+	 z-index: 1; 
+	 position:fixed; 
+	 top:0;
+	}	
+.pleca
+	{
+	 background: url(../img/pleca/derecha.png) no-repeat   !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:800px;
+  height: 280px;
+	}
+
+.tit_condiciones{
+	font-size: 30px !important;
+	font-weight: bold;
+}
+
+.condiciones_text
+	{
+	 font-size:20px !important;
+	 text-align: justify;
+	}
+
+input[type=text],input[type=email],input[type=tel]
+	{
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 2px 0;
+	  box-sizing: border-box;
+	  border: 1px solid #db0919;
+	  margin-left: -1px;
+	}
+
+
+	@media (max-width: 850px) {
+ html,body,.navega { 
+  background: url(../img/background1.png) no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Calibri;
+}
+
+.navega{
+	display: none;
+}
+.paramovil{
+	display: block;
+}
+
+.form_correo
+{
+ display:block;
+ margin:auto;
+}
+
+
+
+
+
+}
